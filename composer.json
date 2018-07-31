@@ -1,0 +1,30 @@
+{
+    "name": "guzhiyong/test",
+    "description": "Roles & Permissions for Laravel 5",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "guzhiyong",
+        "email": "787284651@qq.com"
+        }
+    ],
+    "require" : {
+        "php": ">=5.5.9",
+        "illuminate/database": "5.*",
+        "illuminate/support": "5.*",
+        "illuminate/cache": "5.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "phpspec/phpspec": "~2.1",
+        "fabpot/php-cs-fixer": "~2.0",
+        "orchestra/testbench": "~3.0",
+        "fzaninotto/faker": "~1.5"
+    },
+    "autoload": {
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable"
+}
